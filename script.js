@@ -2,9 +2,12 @@ $(function(){
 
   $('#new-message-button').click(function(){
     add_new_message();
+
+    // clear the #new-message-body element
+    $('#new-message-body').val('');
   });
 
-  
+
 });
 
 function add_new_message(){
